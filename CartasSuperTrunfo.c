@@ -2,6 +2,10 @@
 
 int main(){
 
+// Apresentação do projeto.
+
+printf("Desafio Nivel Novato de Super Trunfo em C da Estacio\nCodigo criado por Gabriel de Jesus\nSeja Bem vindo.\n");
+
 //Declaração de variaveis.
 // carta 01
 
@@ -70,7 +74,7 @@ scanf("%f", &pib_carta2);
 printf("Qual a quantidade de pontos turisticos da carta 02? ");
 scanf("%d", &turismo_carta2);
 
-// aprensentando a carta 01
+// apresentando a carta 01
 
 printf("\nCarta 01\n");
 printf("Estado: %c\n", estado_carta1);
@@ -81,7 +85,7 @@ printf("Area: %.2f KM²\n", area_carta1);
 printf("PIB: %.2f Bilhões de reais\n", pib_carta1);
 printf("Numero de Pontos Turisticos: %d\n", turismo_carta1);
 
-// aprensentando a carta 02
+// apresentando a carta 02
 
 printf("\nCarta 02\n");
 printf("Estado: %c\n", estado_carta2);
@@ -100,6 +104,6 @@ printf("Numero de Pontos Turisticos: %d\n", turismo_carta2);
 
 
 
-    return 0;    //indica que o programa rodou com sucesso
+    return 0;    //Progrma finalizou com sucesso
 
 }
